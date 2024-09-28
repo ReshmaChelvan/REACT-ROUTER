@@ -1,5 +1,5 @@
 import React from 'react'
-import Ban from "/ROUTER_DOM/vite-project/public/Ban.webp";
+import Ban from "/Ban.webp";
 import {Link} from "react-router-dom"
 import Head from '../Head';
 
@@ -39,8 +39,8 @@ const Courses = () => {
     </div>
       <div className="container">
         <div className="row mt-2">
-            {FourData.map((e) => ( 
-            <div className="col-sm-4  ">
+            {FourData.map((e, i) => ( 
+            <div className="col-sm-4  " key={i}>
               <div className="cart p-3">
                   <h5 className='mt-2'>{e.Topics}</h5>
                   <p>{e.Content}</p>

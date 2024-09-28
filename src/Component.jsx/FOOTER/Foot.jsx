@@ -1,8 +1,8 @@
 import React from "react"
-import Logo from "/ROUTER_DOM/vite-project/public/Logo.png"
-import Twit from "/ROUTER_DOM/vite-project/public/twitter.svg"
-import youtube from "/ROUTER_DOM/vite-project/public/youtube.svg"
-import insta from "/ROUTER_DOM/vite-project/public/instagram.svg"
+import Logo from "/Logo.png"
+import Twit from "/twitter.svg"
+import youtube from "/youtube.svg"
+import insta from "/instagram.svg"
 
 function Foot() { 
     return(

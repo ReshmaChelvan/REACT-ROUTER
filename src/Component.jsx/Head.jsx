@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from "/ROUTER_DOM/vite-project/public/Logo.png";
+import Logo from "/Logo.png";
 import AllGuvi from './Router_File.jsx/AllGuvi';
 
 

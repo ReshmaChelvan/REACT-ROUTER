@@ -1,5 +1,5 @@
 import React from 'react'
-import banner from "/ROUTER_DOM/vite-project/public/GuviBanner.webp"
+import banner from "/GuviBanner.webp"
 
 
 const Banner = () => {
